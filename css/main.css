@@ -3,6 +3,7 @@ body{
     background-color: #181818;
 }
 .header{
+    display: flex;
     width: 100%;
     padding: 20px 0;
     margin-bottom: 20px;
@@ -11,6 +12,16 @@ body{
 .header__title{
     margin: 0 0 0 60px;
     color: #fff;
+}
+.select {
+    width: 200px;
+    margin-right: 75px;
+    margin-left: auto;
+    padding-left: 10px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #666;
+    outline-color: #fefefe;
 }
 .list {
     width: 1410px;
