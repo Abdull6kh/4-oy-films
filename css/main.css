@@ -13,15 +13,37 @@ body{
     margin: 0 0 0 60px;
     color: #fff;
 }
-.select {
+.select,.sor-select, .input {
     width: 200px;
-    margin-right: 75px;
-    margin-left: auto;
     padding-left: 10px;
     color: #fff;
     border-radius: 3px;
     background-color: #666;
     outline-color: #fefefe;
+}
+.sor-select{
+    margin-right: 40px;
+    margin-left: auto;
+}
+.form{
+    display: flex;
+    height: 37px;
+    margin-right: 75px;
+    margin-left: 40px;
+}
+.input{
+    margin: 0 40px 0 0;
+    padding: 0 0 0 10px;
+    border: 2px solid #666;
+}
+.input::placeholder{
+    color: #fff;
+}
+.btn{
+    width: 100px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: red;
 }
 .list {
     width: 1410px;
